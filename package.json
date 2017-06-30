@@ -1,0 +1,23 @@
+{
+  "name": "image-search",
+  "version": "0.0.0",
+  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "main": "server.js",
+  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^3.2.6",
+    "mongoose": "^4.11.0",
+    "node": "0.0.0",
+    "node-bing-api": "^3.2.1",
+    "nodemon": "^1.11.0",
+    "socket.io": "~0.9.14"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "license": "ISC"
+}
